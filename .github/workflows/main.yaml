@@ -35,7 +35,7 @@ jobs:
         name: Post message on slack
         uses: bluenovaio/action-slack@main
         with:
-          username: "Aung Ko Ko Khant"
+          username: "Aung KoKo Khant"
           icon_emoji: ":robot_face:"
           text:  "Name: Aung Ko Ko Khant \nMatriculation: A0249480X \nEmail: <outlook.com| e0941673@u.nus.edu > \nRepo: <https://github.com/Crystallozti/randomnum.git|git@github.com:Crystallozti/randomnum.git>\nImage name: aungkokokhant/randnumimg:${{github.ref_name}}\nImage url: <https://hub.docker.com/repository/docker/aungkokokhant/randnumimg|https://hub.docker.com/repository/docker/aungkokokhant/randnumimg>"
           webhook_url: ${{ secrets.SLACK_WEBHOOK }}
